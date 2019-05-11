@@ -1,4 +1,4 @@
-скачать smartGIT
+пшескачать smartGIT
 git init   начало
 ls -a  
 git add .  добавляет все файлы в этой папке

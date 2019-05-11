@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Заголовок</title>
+	<link rel="stylesheet" href="css/index.css">
+	<script src="https://code.jquery.com/jquery-3.4.0.min.js"></script>
+</head>
+<body>
+	<div class="flags-container">
+		<img data-lang="ua" src="jpg/1.jpg" class="language-image">
+		<img data-lang="en" src="jpg/2.jpg" class="language-image">
+	</div>
+	<p id="name">
+		<span class="description">Ваше имя</span>
+		<input type="text" placeholder="Введите ваше имя">
+	</p>
+	<p id="gender">
+		<span class="description">Ваш пол</span>
+		<span id="male">М</span><input name="gender" type="radio" value="male" checked>
+		<span id="female">Ж</span><input name="gender" type="radio" value="female">
+	</p>
+	<p id="country_wrapper">
+		<span class="description">Выберите страну проживание</span>
+		<select name="" id="country">
+			<option value="ua">Украина</option>
+			<option value="fr">Франция</option>
+			<option value="us">США</option>
+			<option value="br">Бразилия</option>
+		</select>
+	</p>
+	<p id="isShowBornCountry">
+		<span class="description">Страна где вы живете и страна где выродились равны?</span>
+		<input type="checkbox">
+	</p>
+	<p id="born-country_wrapper">
+		<span class="description">Выберите страну где вы родились</span>
+		<select name="" id="born-country">
+			<option value="ua">Украина</option>
+			<option value="fr">Франция</option>
+			<option value="us">США</option>
+			<option value="br">Бразилия</option>
+		</select>
+	</p>
+	<p id="email">
+		<span class="description">Ваш email</span>
+		<input type="text" placeholder="Введите ваш email">
+	</p>
+	<input type="submit" id="go" value="Отправить">
+	 <script src="js/index.js"></script>
+</body>
+</html>

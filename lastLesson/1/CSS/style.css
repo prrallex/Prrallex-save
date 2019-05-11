@@ -1,0 +1,20 @@
+div{
+	border: 1px solid black;
+	width: 64px;
+	height: 64px;
+}
+.red{
+	background-color: red;
+}
+.blue{
+	background-color: blue;
+}
+.green{
+	background-color: green;
+}
+.orange{
+	background-color: orange;
+}
+.yellow{
+	background-color: yellow;
+}
